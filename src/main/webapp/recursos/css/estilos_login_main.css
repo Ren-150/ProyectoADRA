@@ -49,15 +49,10 @@
 			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#fondo{
-    background-image: url("../imagenes/Fondo1.jpg");
-    background-size: cover;
-}
-
-/*--------Estilos exclusivos de main.html------------*/
+/*--------Estilos exclusivos de main.jsp------------*/
 
 #asidebar{
-    background-image: url(/imagenes/Fondo2.jpg);
+    background-image: url("imagenes/Fondo2.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -68,7 +63,7 @@
 }
 
 #section{
-    background-image: url(/imagenes/Fondo3.jpg);
+    background-image: url(../imagenes/Fondo3.jpg);
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(4,1fr);

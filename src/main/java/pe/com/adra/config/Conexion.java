@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-	private static final String URL = "jdbc:oracle:thin:@3.233.242.110:1521:ORCL";
+	private static final String URL = "jdbc:oracle:thin:@44.192.95.203:1521:ORCL";
     private static final String USER = "ADMIN_ADRA";
     private static final String PASS = "admin190";
     private static final String DRIVER = "oracle.jdbc.OracleDriver";

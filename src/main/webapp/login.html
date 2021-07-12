@@ -6,9 +6,15 @@
 	<link rel="stylesheet" href="recursos/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="recursos/css/estilos_login_main.css">
+    <style>
+    	#fondo{
+    		background-image: url("recursos/imagenes/Fondo1.jpg");
+    		background-size: cover;
+		}
+    </style>
 </head>
-<body>
-	<div id="fondo">
+<body id="fondo">
+	<div>
         <nav class="navbar navbar-light sombra"
             style="background: linear-gradient(to bottom right, rgb(6, 88, 47), rgb(10, 155, 54));">
             <img src="recursos/imagenes/logo.png" width="180" height="60" style="border-radius: 15px;">
@@ -24,8 +30,8 @@
                 <div class="container logincaja">
                     <div id="effect" class="login caja ui-widget-content ui-corner-all" style="text-align: center;">
                         <img style="width: 150px; height: 150px; margin-bottom: 10px;" src="recursos/imagenes/Perfil.png" alt="">
-
-                        <div class="input-group mb-2 espaciado sombra-input">
+						<form action="login" method="post">
+							<div class="input-group mb-2 espaciado sombra-input">
                             <div class="input-group-prepend">
                                 <div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></div>
                             </div>
@@ -41,7 +47,8 @@
                         <div class="form-group espaciado">
                             <button id="boton" class="btn btn-warning btn-md btn-block sombra">Ingresar</button>
                         </div>
-
+						</form>
+                        
                         <a href="" class="text-white">Olvidaste tu contraseña?</a>
 
                     </div>

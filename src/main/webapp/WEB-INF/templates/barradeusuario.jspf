@@ -1,0 +1,16 @@
+<div id="asidebar" class="col-3">
+	<img src="recursos/imagenes/logo.png" width="180" height="60"
+		style="border-radius: 15px; margin-top: 30px;">
+
+	<div class="cajita">
+		<img style="width: 100px; height: 100px; margin-bottom: 10px;"
+			src="recursos/imagenes/perfil2.png" alt=""> <span id="user"
+			style="font-size: 25px;"></span><span id="rol"><b>$(sessionScope.Nombre)</b></span>
+	</div>
+
+	<div class="cajita">
+		<a id="salir" href=""> <i class="fa fa-power-off"
+			aria-hidden="true"></i><br> <span>Salir</span>
+		</a>
+	</div>
+</div>
