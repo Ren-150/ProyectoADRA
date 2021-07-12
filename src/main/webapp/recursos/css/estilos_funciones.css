@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+}
+
+.icon-right{
+    margin-right: 10px;
+}
+
+.boton-bar{
+    color: black;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(70, 67, 67);
+    height: 15%;
+}
+
+.menubar{
+    font-size: 18px;
+    background-color: rgb(218, 213, 213);
+    width: 100%;
+    height: 100%;
+
+}
+
+.main2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.extender{
+    height: 100%;
+}
+
+/*----------------Estilos de 1_crear_usuario.html----------------*/
+
+.formulario{
+    margin-top: 15px;
+    border: black 1px solid;
+    margin-right: 10px;
+}
+
+.header{
+    background-color: aqua;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: black 1px solid;
+
+}
+
+.cuerpo{
+    padding: 30px;
+}
+
+.tamanio-btn{
+    width: 100px;
+    text-align: center;
+}
+
+.caja-botones{
+    padding-right: 20px;
+    text-align: center;
+}
+
+/*------Estilos de 1.1_datos_cliente.html-----*/
+
