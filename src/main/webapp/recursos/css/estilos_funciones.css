@@ -17,6 +17,7 @@ html, body{
     background-color: transparent;
     border-bottom: 2px solid rgb(70, 67, 67);
     height: 15%;
+    text-align: left;
 }
 
 .menubar{
@@ -24,6 +25,7 @@ html, body{
     background-color: rgb(218, 213, 213);
     width: 100%;
     height: 100%;
+    text-align: left;
 
 }
 

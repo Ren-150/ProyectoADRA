@@ -24,17 +24,18 @@
         <div class="row">
             
             <%@include file="WEB-INF/templates/barradeusuario.jspf" %>
+            
             <div id="section" class="col-9">
-                <a id="op1" href="">
-                    <div class="card sombra-suave" style="width: 12rem; height: 11rem; text-align: center;">
+                <a id="" href="1_crearusuarios.jsp">
+                	<div class="card sombra-suave" style="width: 12rem; height: 11rem; text-align: center;">
                         <img class="img-opcion" src="recursos/imagenes/opc1.jpg" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Crear Usuario</h6>
                         </div>
                     </div>
                 </a>
-
-                <a id="op2" href="">
+                    
+                <a id="" href="2_crearcapacitaciones.jsp">
                     <div class="card sombra-suave" style="width: 12rem; height: 11rem; text-align: center;">
                         <img class="img-opcion" src="recursos/imagenes/opc2.png" alt="...">
                         <div class="card-body">
@@ -43,11 +44,11 @@
                     </div>
                 </a>
 
-                <a id="op3" href="">
+                <a id="" href="3_control_capacit.jsp">
                     <div class="card sombra-suave" style="width: 12rem; height: 11rem; text-align: center;">
                         <img class="img-opcion" src="recursos/imagenes/opc6.png" alt="...">
                         <div class="card-body">
-                            <h6 class="card-title">Control de Capacitaciones</h6>
+                            <h6 class="card-title">Reportes</h6>
                         </div>
                     </div>
                 </a>

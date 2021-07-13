@@ -5,7 +5,7 @@
 	<div class="cajita">
 		<img style="width: 100px; height: 100px; margin-bottom: 10px;"
 			src="recursos/imagenes/perfil2.png" alt=""> <span id="user"
-			style="font-size: 25px;"></span><span id="rol"><b>$(sessionScope.Nombre)</b></span>
+			style="font-size: 25px;"></span><span id="rol"></span>
 	</div>
 
 	<div class="cajita">
