@@ -7,20 +7,18 @@ public class Capacitacion {
     private String fecha_cierre;
     private int cantidad_horas;
     private int id_categoria;
-    private int id_persona;
     
     
     public Capacitacion() {
     }
 
     
-    public Capacitacion(int id_capacitacion, String nombre, String fecha_inicio, String fecha_cierre, int cantidad_horas, int id_categoria, int id_persona) {
+    public Capacitacion(String nombre, String fecha_inicio, String fecha_cierre, int cantidad_horas, int id_categoria) {
         this.nombre = nombre;
         this.fecha_inicio = fecha_inicio;
         this.fecha_cierre = fecha_cierre;
         this.cantidad_horas = cantidad_horas;
         this.id_categoria = id_categoria;
-        this.id_persona = id_persona;
     }
     
     
@@ -71,17 +69,5 @@ public class Capacitacion {
 
     public void setId_categoria(int id_categoria) {
         this.id_categoria = id_categoria;
-    }
-
-    public int getId_persona() {
-        return id_persona;
-    }
-
-    public void setId_persona(int id_persona) {
-        this.id_persona = id_persona;
-    }
-    
-    
-    
-    
+    }    
 }

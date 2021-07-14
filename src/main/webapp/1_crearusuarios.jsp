@@ -16,9 +16,9 @@
 		<nav class="navbar navbar-light"
 			style="background: linear-gradient(to bottom right, rgb(6, 88, 47), rgb(10, 155, 54));">
 			<img src="recursos/imagenes/logo.png" width="180" height="60"
-				style="border-radius: 15px;"> <span id="mostraruser"
+				style="border-radius: 15px;"> <span id="user"
 				class="navbar-brand mb-0 justify-content-center h3 text-white">
-				<span id="user"></span>-<span id="rol"></span></span>
+				<span id="user"></span> - <span id="rol" ></span></span>
 		</nav>
 
 		<div class="row extender" style="margin-right: 0px;">
@@ -98,12 +98,13 @@
 													</div>
 												</div>
 												<div class="caja-botones d-flex">
-													<button id="crear1" class="btn btn-success  ml-auto" onclick="crear1();">Crear Cliente</button>
-													<button id="crear2" class="btn btn-success  ml-auto" onclick="crear2();">Crear Usuario</button>
+													<button id="crear1" class="btn btn-success  ml-auto">Crear Cliente</button>
+													<button id="crear2" class="btn btn-success  ml-auto">Crear Usuario</button>
 													
 													<button id="enviar" class="btn btn-success  ml-auto">Enviar
 														cuentas</button>
-													<input type="hidden" class="form-control"	id="id" value="0" />
+													<input type="hidden" class="form-control"	id="id1" value="0" />
+													<input type="hidden" class="form-control"	id="id2" value="0" />
 													
 												</div>
 												
@@ -141,7 +142,7 @@
 										<th scope="col">DNI</th>
 									</tr>
 								</thead>
-								<tbody id="tbd1">
+								<tbody>
 									
 								</tbody>
 							</table>
@@ -167,7 +168,7 @@
 										<th scope="col">Contraseña</th>
 									</tr>
 								</thead>
-								<tbody id="tbd2">
+								<tbody>
 									
 								</tbody>
 							</table>
@@ -181,10 +182,11 @@
 		</div>
 
 	</div>
-	<script src="recursos/js/script_p.js"></script>
 	<script src="recursos/js/jquery-3.6.0.min.js"></script>
 	<script src="recursos/js/bootstrap.min.js"></script>
 	<script src="recursos/js/1_script.js"></script>
+	<script src="recursos/js/script_personas.js"></script>
+	<script src="recursos/js/script_usuarios.js"></script>
 	<script src="recursos/js/script_salir.js"></script>
 </body>
 </html>

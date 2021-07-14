@@ -19,7 +19,7 @@ public class Sesion {
         return id_sesion;
     }
 
-    public void setId_clase(int id_sesion) {
+    public void setId_sesion(int id_sesion) {
         this.id_sesion = id_sesion;
     }
 

@@ -1,6 +1,4 @@
-var data = sessionStorage.getItem('user');
 
-$("#user").html(data);
 
 function pagina(n) {
     if (n == 1) {

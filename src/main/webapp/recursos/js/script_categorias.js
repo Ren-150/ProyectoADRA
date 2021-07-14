@@ -7,9 +7,9 @@ $(document).ready(function(){
 function listar(){
 	$.get("cc", {"opc":1}, function(data){
 		var x= JSON.parse(data);
-		$("#tablita tbody tr").remove();
+		$("#table tbody tr").remove();
 		for(var i=0;i<x.length;i++){
-			$("#tablita").append("<tr><td>"+(i+1)+"</td><td>"+x[i].id_categoria+"</td><td>"+x[i].nombre+"</td><td><a href='#' onclick='editar("+x[i].id_categoria+")'><i class='far fa-edit'></i></a></td><td><a href='#' onclick='eliminar("+x[i].id_categoria+")'><i class='fas fa-trash-alt'></i></a></td></tr>");
+			$("#table").append("<tr><td>"+(i+1)+"</td><td>"+x[i].id_categoria+"</td><td>"+x[i].nombre+"</td><td><a href='#' onclick='editar("+x[i].id_categoria+")'><i class='far fa-edit'></i></a></td><td><a href='#' onclick='eliminar("+x[i].id_categoria+")'><i class='fas fa-trash-alt'></i></a></td></tr>");
 		}
 	});
 }
@@ -52,7 +52,7 @@ function editar(id){
 	$.get("cc",{"id":id,"opc":3},function (data) {
 		var x = JSON.parse(data);
 		$("#id").val(x.id_categoria)
-		$("#nom").val(x.nombre)
+		$("#nom").val(x.nombre);
     });
 }
 function eliminar(id){

@@ -18,7 +18,7 @@
 			<img src="recursos/imagenes/logo.png" width="180" height="60"
 				style="border-radius: 15px;"> <span id="mostraruser"
 				class="navbar-brand mb-0 justify-content-center h3 text-white">
-				Nombre - Rol</span>
+				<span id="user"></span><span id="rol" ></span></span>
 		</nav>
 
 		<div class="row extender" style="margin-right: 0px;">
@@ -51,7 +51,7 @@
 										<div class="form-group row">
 											<label for="" class="col-sm-3 col-form-label">Tema:</label>
 											<div class="col-sm-8">
-												<input type="text" class="form-control" id="tema">
+												<input type="text" class="form-control" id="tem">
 											</div>
 										</div>
 
@@ -68,14 +68,14 @@
 											<div class="col-sm-8">
 												<select id="capac" class="form-control">
 													<option>Seleccionar</option>
-													<option>Primer Auxilios</option>
-													<option>Cultivos</option>
+													<option>Ayuda Comunitaria</option>
 												</select>
 											</div>
 										</div>
 										<div class="caja-botones d-flex">
-											<button id="enviar" onclick="crear();"
+											<button id="crear"
 												class="btn btn-success tamanio-btn ml-auto">Crear</button>
+											<input type="hidden" class="form-control" id="id" value="0" />
 										</div>
 									</div>
 								</div>
@@ -104,7 +104,7 @@
 										<th scope="col">Capacitacion</th>
 									</tr>
 								</thead>
-								<tbody id="tbd">
+								<tbody>
 									
 								</tbody>
 							</table>
@@ -118,8 +118,8 @@
 		</div>
 		<script src="recursos/js/jquery-3.6.0.min.js"></script>
 		<script src="recursos/js/bootstrap.min.js"></script>
+		<script src="recursos/js/script_sesiones"></script>
 		<script src="recursos/js/1_script.js"></script>
-		<script src="recursos/js/script_s.js"></script>
 		<script src="recursos/js/script_salir.js"></script>
 	</div>
 </body>

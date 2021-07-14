@@ -18,7 +18,7 @@
 			<img src="recursos/imagenes/logo.png" width="180" height="60"
 				style="border-radius: 15px;"> <span id="mostraruser"
 				class="navbar-brand mb-0 justify-content-center h3 text-white">
-				Nombre - Rol</span>
+				<span id="user"></span><span id="rol" ></span></span>
 		</nav>
 
 		<div class="row extender" style="margin-right: 0px;">
@@ -84,7 +84,7 @@
 										<th scope="col">Nombre</th>
 									</tr>
 								</thead>
-								<tbody id="tbd">
+								<tbody>
 									
 								</tbody>
 							</table>
@@ -98,10 +98,10 @@
 
 		</div>
 		
-			<script src="recursos/js/script_c.js"></script>
 			<script src="recursos/js/jquery-3.6.0.min.js"></script>
 			<script src="recursos/js/bootstrap.min.js"></script>
 			<script src="recursos/js/1_script.js"></script>
+			<script src="recursos/js/script_capacitaciones"></script>
 			<script src="recursos/js/script_salir.js"></script>
 </body>
 </html>

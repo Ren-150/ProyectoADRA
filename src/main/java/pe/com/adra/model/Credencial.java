@@ -4,12 +4,12 @@ public class Credencial {
     private int id_persona;
     private String nombre_usuario;
     private String contrasenia;
-    private char estado;
+    private String estado;
 
     public Credencial() {
     }
 
-    public Credencial(String nombre_usuario, String contrasenia, char estado) {
+    public Credencial(String nombre_usuario, String contrasenia, String estado) {
         this.nombre_usuario = nombre_usuario;
         this.contrasenia = contrasenia;
         this.estado = estado;
@@ -39,11 +39,11 @@ public class Credencial {
         this.contrasenia = contrasenia;
     }
 
-    public char getEstado() {
+    public String getEstado() {
         return estado;
     }
 
-    public void setEstado(char estado) {
+    public void setEstado(String estado) {
         this.estado = estado;
     }
     

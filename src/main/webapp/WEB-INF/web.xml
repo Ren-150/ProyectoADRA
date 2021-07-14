@@ -68,18 +68,18 @@
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>PersonaController</servlet-name>
-		<url-pattern>/PersonaController</url-pattern>
+		<url-pattern>/pc</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>CredencialController</servlet-name>
-		<url-pattern>/CredencialController</url-pattern>
+		<url-pattern>/cdc</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>SesionController</servlet-name>
-		<url-pattern>/SesionController</url-pattern>
+		<url-pattern>/sc</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>CapacitacionController</servlet-name>
-		<url-pattern>/CapacitacionController</url-pattern>
+		<url-pattern>/cpc</url-pattern>
 	</servlet-mapping>
 </web-app>
